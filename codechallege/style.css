@@ -1,0 +1,80 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ .center {
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+ }
+
+#logo {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+#logo-text {
+  color: lime;
+  font-size: 32px;
+  font-family: arial;
+  text-align: center;
+}
+
+.conteiner {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 50%;/* si adatta allo schermo*/
+  heigh: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+}
+#greenbar {
+  background-color: lime;
+  width: 100%;/* si adatta allo schermo*/
+  height: auto;
+}
+
+.monoinfo {
+  width: 100%;/* si adatta allo schermo*/
+  display: block;
+  color: white;
+  font-family: arial;
+  font-size: 18px;
+}
+
+ul.square {
+  list-style-type: square;
+}
+
+li {
+  font-size: 36px;
+}
+
+li span {
+  font-size: 26px;
+}
+
+.batteryhigh {
+  background-color: green;
+  width: 95%;/* si adatta allo schermo*/
+  height: 40px;
+  border-radius: 10px;
+}
+
+.batterymid {
+  background-color: orange;
+  width: 65%;/* si adatta allo schermo*/
+  height: 40px;
+  border-radius: 10px;
+}
+
+.batterylow {
+  background-color: red;
+  width: 20%;/* si adatta allo schermo*/
+  height: 40px;
+  border-radius: 10px;
+}
